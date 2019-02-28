@@ -1,7 +1,7 @@
 # Fdb version 3
-["pdflatex"] 1551321019 "/home/nico/Documents/Math-CV/courts-cv-math.tex" "/home/nico/Documents/Math-CV/courts-cv-math.pdf" "courts-cv-math" 1551321020
-  "/home/nico/Documents/Math-CV/courts-cv-math.aux" 1551316259 8 a94a2480d3289e625eea47cd1b285758 ""
-  "/home/nico/Documents/Math-CV/courts-cv-math.tex" 1551321019 8254 270072236f17fb535c82cc65a4ad675f ""
+["pdflatex"] 1551321202 "/home/nico/Documents/Math-CV/courts-cv-math.tex" "/home/nico/Documents/Math-CV/courts-cv-math.pdf" "courts-cv-math" 1551321202
+  "/home/nico/Documents/Math-CV/courts-cv-math.aux" 1551321202 8 a94a2480d3289e625eea47cd1b285758 ""
+  "/home/nico/Documents/Math-CV/courts-cv-math.tex" 1551321202 8255 4cf06256cfb87e9509889398f5ab3a9d ""
   "/usr/local/texlive/2018/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1136768653 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1136768653 1324 c910af8c371558dc20f2d7822f66fe64 ""
@@ -23,11 +23,11 @@
   "/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1546552532 3144931 ca5eecf6fcc67d721efa730257859d2a ""
   "/usr/local/texlive/2018/texmf-var/web2c/pdftex/pdflatex.fmt" 1550455409 4227023 eacfd2871d503b1da743f2de4290f53c ""
   "/usr/local/texlive/2018/texmf.cnf" 1546552522 455 5b996dcaa0eb4ef14a83b026bc0a008c ""
-  "courts-cv-math.aux" 1551316259 8 a94a2480d3289e625eea47cd1b285758 ""
-  "courts-cv-math.tex" 1551321019 8254 270072236f17fb535c82cc65a4ad675f ""
+  "courts-cv-math.aux" 1551321202 8 a94a2480d3289e625eea47cd1b285758 ""
+  "courts-cv-math.tex" 1551321202 8255 4cf06256cfb87e9509889398f5ab3a9d ""
   "res.cls" 1551315946 25066 8ec1e15ab4c53340bc92863668c7be49 ""
   (generated)
-  "courts-cv-math.pdf"
-  "/home/nico/Documents/Math-CV/courts-cv-math.log"
   "courts-cv-math.log"
+  "/home/nico/Documents/Math-CV/courts-cv-math.log"
   "/home/nico/Documents/Math-CV/courts-cv-math.pdf"
+  "courts-cv-math.pdf"
