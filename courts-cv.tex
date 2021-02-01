@@ -26,6 +26,9 @@
 %\usepackage{newcent} % To change the default font to the new century schoolbook postscript font uncomment this line and comment the one above
 \usepackage{amsmath}
 
+\usepackage[utf8]{inputenc}
+\usepackage[russian,english]{babel}
+
 \setlength{\textwidth}{5.1in} % Text width of the document
 \usepackage{standalone}
 
@@ -51,22 +54,18 @@
 %	RESEARCH INTERESTS SECTION
 %----------------------------------------------------------------------------------------
  
-\section{RESEARCH INTERESTS}  
+\section{MATH RESEARCH INTERESTS}  
 
-I am a student of Prof. Julia Pevtsova studying the representation theory of algebraic groups and 
-other objects using tools from geometry and cohomology theory. Looking forward, I am particularly
-interested in the study of quantum groups and (non-commutative) $q$-deformations of objects in algebraic 
-geometry as well as considering problems related to the geometric Langland's program.
+I am a student of Prof. Julia Pevtsova studying the representation theory of Hopf (and other) algebras
+including Schur algebras and $q$-deformations of objects from algebraic geometry. I rely on techniques from 
+geometry and homological algebra as well as support theory to understand the representation categories of 
+these algebras.
 
-% More applied interests
-%I am a student of Prof. Julia Pevtsova studying the representation theory of group schemes and other 
-%algebraic structures using tools from geometry, category theory, and homological algebra. While my thesis 
-%is likely to be of a highly theoretical character, it requires that I be skilled in many different areas of math and 
-%I am conversant in the languages of combinatorics, topology, analysis, and optimization.
+\section{DATA SCIENCE RESEARCH INTERESTS}
 
-%What's more, I am always looking for ways to ground what I am learning in the 
-%real world. Applications that make me particularly excited are that of artificial general intelligence and 
-%interpretability of mathematical models which, I believe, can serve a vital role in the realization of AGI.
+I am also an intern with Pacific Northwest National Labs under the instruction of Dr. Henry Kvinge. 
+I am particularly interested in using my familiarity with concepts from algebra, category theory, and geometry
+to enhance the current understanding of deep learning models with a focus towards providing more robust interpretability.
 
 %----------------------------------------------------------------------------------------
 %	EDUCATION SECTION
@@ -77,7 +76,7 @@ geometry as well as considering problems related to the geometric Langland's pro
 {\bf Ph.D.,} Mathematics\hfill June 2022 (expected) \\
 University of Washington, Seattle, WA
 
-{\bf Master of Science,} Mathematics\hfill June 2020 (expected) \\
+{\bf Master of Science,} Mathematics\hfill March 2020 \\
 University of Washington, Seattle, WA \\
 {\it Thesis Topic:} Schur Duality and Strict Polynomial Functors
 
@@ -103,11 +102,11 @@ Citrus College, Glendora, CA
 In the recent past, my studies have been focusing on understanding the rational representations of $\operatorname{GL}_n$ as established by Schur in his thesis 
 and later work (and later translated and elucidated by Green). More recently, Friedlander, Suslin, Krause,
 and others have found equivalent categories that more readily afford monoidal structure in the interest of establishing the monoidicity 
-of the Schur-Weyl functor and examining the interactions between different forms of duality. 
+of the Schur-Weyl functor and examining the interactions between different forms of duality. My goal is to use this
+to try to say something about the bounded derived category of the Schur algebra $S(p,p)$ in positive characteristic.
 
-My current (short-term) goal is to polish my understanding of how the phenomenon of Schur-Weyl duality presents in the broader 
-context (e.g. in the relationship between $q$-Schur algebras and Iwahori-Hecke algebras) while continuing to learn about geometric methods 
-used for answering questions in representation theory.
+On the data science side, my primary focus so far has been on few-shot learning using pre-trained encoders 
+and leveraging the topology and geometry of encoded space to try to make better inferences on unseen datasets (transfer learning).
 
 {\bf Graduate Reading Courses} \\
 University of Washington, Seattle, WA
@@ -118,7 +117,20 @@ University of Washington, Seattle, WA
 	\item (Simplicial) Cohomology -- Prof. Steve Mitchell -- {\sl Autumn 2016}
 \end{itemize}
 
-\newpage
+\section{INTERNSHIPS}
+\textbf{NSIP PhD Intern}\hfill June 2020 -- Present\\
+Pacific Northwest National Labs, Seattle, WA
+
+A full-time summer internship resulting in the below publication. After completion I was asked to continue on part-time
+while I complete my graduate work. I contributed the majority of the coding and tests in our published work as well as
+(under the instruction of Dr. Kvinge), coming up with the idea of a fuzzy simplicial complex and the subsequent model we used.
+
+\section{PUBLICATIONS}
+Kvinge, H., New, Z., Courts, N., Lee, J.H., Phillips, L.A., Corley, C., Tuor, A., Avila, A., \& Hodas, N.O.
+\textit{Fuzzy Simplicial Networks: A Topology-Inspired Model to Improve Task Generalization in Few-shot Learning.} (2020).
+https://arxiv.org/abs/2009.11253 (to appear)
+
+
 %----------------------------------------------------------------------------------------
 %	PROFESSIONAL EXPERIENCE SECTION
 %----------------------------------------------------------------------------------------
@@ -131,12 +143,12 @@ University of Washington, Seattle, WA
 \begin{itemize} \itemsep -1pt % Reduce space between items
 \item\textbf{As an instructor:} 
 \begin{itemize}
-	\item Math 124 -- Calculus I (Summer 2018)\vspace{5pt}
+	\item Math 124 -- Calculus I (Su 2018)
 
 %	I put my own twist on the standard Calc I curriculum by deciding to focus on high-level understanding along with cultivating problem-solving techniques and a mathematical mindset.
 %	This idea was loosely based on that of the flipped classroom; students were encouraged using quizzes to read the textbook before any material was discussed in class and large portions of contact time with instructors were dedicated to working on challenging problem sets and presenting solutions to the class.
 %	Technology was used frequently and liberally as a way to both bolster understanding through visual aids and as a means to solicit frequent feedback from students to monitor their understanding and progress.\vspace{5pt}
-	\item Math 308 -- Matrix Algebra (Spring 2019)\vspace{5pt}
+	\item Math 308 -- Matrix Algebra (Sp 2019)\vspace{5pt}
 	
 %	My focus during this quarter was on developing the students' ability to solve problems they hadn't seen before. In service of this, we dedicated a third of our contact time to solving problems in small groups with my oversight.
 %	My initial course structure wasn't adequately meeting the needs of the class (which I determined from soliciting feedback), so after the first midterm we pivoted to having more worked-out examples in class, for which the students were thankful.
@@ -144,13 +156,13 @@ University of Washington, Seattle, WA
 \end{itemize}
 \item \textbf{As a teaching assistant:} 
 \begin{itemize}
-	\item Math 120 -- Precalculus (Autumn 2017)
-	\item Math 124 -- Calculus I (Winter 2017, Winter 2019)
-	\item Math 125 -- Calculus II (Autumn 2016, Spring 2017)
-	\item Math 126 -- Calculus III (Summer 2017, Winter 2018, Spring 2018)
-	\item Math 327 -- Introductory Real Analysis (Summer 2019)
-	\item Math 381 -- Discrete Mathematical Modeling (Autumn 2018)
-	\item Math 403 -- Group Theory (Winter 2020)
+	\item Math 120 -- Precalculus (Au 2017)
+	\item Math 124 -- Calculus I (Wi 2017, Wi 2019, Sp 2020)
+	\item Math 125 -- Calculus II (Au 2016, Sp 2017, Wi 2021)
+	\item Math 126 -- Calculus III (Su 2017, Wi 2018, Sp 2018, Au 2020)
+	\item Math 327 -- Introductory Real Analysis (Su 2019)
+	\item Math 381 -- Discrete Mathematical Modeling (Au 2018)
+	\item Math 403 -- Group Theory (Wi 2020)
 \end{itemize}
 \end{itemize}
  
@@ -199,6 +211,13 @@ Volunteer\\
 University of Washington, Seattle\\
 2017 and 2018
 
+\section{TALKS GIVEN}
+
+\textbf{Schur Algebras \& Duality}\\
+November 20, 2020\\
+\textit{Special Colloquium Series for Mathematical Sciences}\\
+Georgia Southern University (online)
+
 \section{\bf EVENTS ATTENDED}
 
 {\bf Conference on Lie and Jordan Algebras and their Representations}\\
@@ -234,8 +253,8 @@ January 2016
 {\bf Languages:}
 \begin{itemize} \itemsep -2pt
 	\item {\sl English} -- This is my native language.
-	\item {\sl German} -- Ich kann ziemlich gut Deutsch sprechen, lesen, und verstehen!
-	\item {\sl Hungarian} -- Csak egy kicsit besz\'elek magyarul.
+	\item {\sl German} -- Ich kann ziemlich gut Deutsch sprechen, lesen, und verstehen! (proficient)
+	\item {\sl Russian} -- \foreignlanguage{russian}{Я немного понимаю по-русски.} (beginner)
 	\item {\sl Programming} -- {\bf Go}, {\bf Haskell}, Java, {\bf \LaTeX}, PHP, {\bf Python}, Typescript.
 \end{itemize}
 {\bf Computer Skills:} Web/Application Development, Server Administration, Sage, Windows, Linux, FreeBSD.
